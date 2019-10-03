@@ -55,6 +55,16 @@ namespace PZ_06
             ShowArray(randomArray);
             return maxValue;
         }
+
+        public void BoxingUnboxing()
+        {
+            object obj = new object();
+            sbyte sbValue = 12;
+            sbyte sbValue1;
+            obj = sbValue;
+            sbValue1 = (sbyte)obj;
+
+        }
         
     }
 
